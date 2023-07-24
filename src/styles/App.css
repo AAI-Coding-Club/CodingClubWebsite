@@ -1,9 +1,3 @@
-body {
-    background-color: cornflowerblue;
-    opacity: 0.6;
-}
-
-h1 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.Centered {
     text-align: center;
 }

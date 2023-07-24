@@ -1,18 +1,18 @@
+import SiteNavBar from './components/SiteNavBar';
+import ContactUs from './components/ContactUs';
 import logo from './logo.svg';
 import './styles/App.css';
 
-import Carousel, { CarouselItem } from './components/Carousel';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 
 function App() {
   return (
-    <div>
-      <h1>AAI Coding Club</h1>
-
-      <Carousel>
-        <CarouselItem>Item 1</CarouselItem>
-        <CarouselItem>Item 2</CarouselItem>
-        <CarouselItem>Item 3</CarouselItem>
-      </Carousel>
+    <div className='Centered'>
+      <SiteNavBar />
+      <h1>Real Stuff Here</h1>
+      <ContactUs />
     </div>
   );
 }
