@@ -4,6 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
 import logo from '../logo.svg';
+import ContactUs from './ContactUs';
 
 function SiteNavBar() {
   return (
@@ -23,7 +24,7 @@ function SiteNavBar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#link">Link</Nav.Link>
+            <Nav.Link href="https://docs.google.com/forms/d/1EgW916kkfnfsC0VH2-pObyPmCeKCPMYOoCuaJ-OGvVI">Interest Form</Nav.Link>
             <NavDropdown title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
@@ -35,6 +36,9 @@ function SiteNavBar() {
                 Separated link
               </NavDropdown.Item>
             </NavDropdown>
+          </Nav>
+          <Nav className='justify-content-end'>
+            <ContactUs />
           </Nav>
         </Navbar.Collapse>
       </Container>
